@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    <form action="mensaje.html">
+    <div>
+        <p></p>Nombre: <input class="Nombre" type="text" name="Nombre" id="" placeholder="Ingrese texto" pattern="[a-zA-Z]*"  required></p>
+    </div>
+    <div>
+        <p>Apellido: <input class="Apellido" type="text" name="Apellido" id="" placeholder="Ingrese texto" pattern="[a-zA-Z]*" required></p>
+    </div>
+    <div>
+        <p>Edad: <input Class="Edad" type="number" name="Edad" id="" min=18 max=80 placeholder="Ingrese Edad" required></p>
+    </div>
+    <div>
+        <p>DNI: <input Class="DNI" type="text" name="DNI" id="" placeholder="Ingrese DNI" minlength="8" pattern="[A-Za-z0-9]+" required></p>
+    </div>
+    <div>
+        <p>Email: <input Class="Email" type="email" name="Email" id="" placeholder="Ingrese Correo" required></p>
+    </div>
+    <button type="submit">Enviar</button>
+    </form>
+</body>
+</html>
+

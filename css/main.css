@@ -1,0 +1,29 @@
+.Nombre:focus {
+    padding: 5px;
+    margin: 5px;
+    border: 5px;
+}
+
+.Apellido:focus {
+    padding: 5px;
+    margin: 5px;
+    border: 5px;
+}
+
+.Edad:focus {
+    padding: 5px;
+    margin: 5px;
+    border: 5px;
+}
+
+.DNI:focus {
+    padding: 5px;
+    margin: 5px;
+    border: 5px;
+}
+
+.Email:focus {
+    padding: 5px;
+    margin: 5px;
+    border: 5px;
+}
