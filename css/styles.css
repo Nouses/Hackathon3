@@ -1,0 +1,57 @@
+.Nombre {
+padding: 15px;
+margin: 15px;
+}
+.Apellido {
+    padding: 15px;
+}
+.email {
+    padding: 15px;
+    margin: 15px;
+}
+.tel {
+    padding: 15px;
+}
+
+h1{
+    text-align: center;
+    color: white;
+    font-size: 45px;
+    font-family:Arial, Helvetica, sans-serif ;
+    margin: auto;
+}
+
+textarea {
+    margin: 15px;
+}
+
+.enviar {
+    padding: 10px;
+}
+
+*{box-sizing:border-box}
+
+form{
+  
+    padding:15px;
+    border-radius: 5px;
+    margin: auto;
+    background-color: rgb(33, 154, 163);
+}
+
+section {
+    width: 500px;
+}
+
+.boton{
+    
+    display: flex;
+    justify-content: center;
+}
+
+.boton2 {
+
+    background-color: rgb(3, 52, 92);
+    padding: 10px;
+    color:white;
+}

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <section >
+    
+        <form action="mensaje.html">
+            <h1>Contacto</h1>
+            <div>
+                <input class="Nombre" type="text" placeholder="Nombre" required minlength="2" pattern="[A-Za-z]+">
+                <input class="Apellido" type="text" placeholder="Apellido" required maxlength="10" pattern="[A-Za-z]+">
+            </div>
+            <div>
+                <input class="email" type="email" placeholder="Email" required>
+                <input class="tel" type="tel" placeholder="Telefono" required minlength="7" maxlength="9" pattern="[0-9]+">
+            </div>
+            <div>
+                <textarea cols="58" rows="10" placeholder="Descripcion"></textarea>
+            </div>
+            <div class="boton">
+                <input class="boton2" type="submit" value="ENVIAR">
+            </div>
+            
+        </form>
+    </section>
+</body>
+</html>
